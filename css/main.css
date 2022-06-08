@@ -1,3 +1,16 @@
+.animacion, body header .tituloUni .uniDibu {
+  width: 30%;
+  animation-name: bailaUni;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 5s; }
+
+@keyframes bailaUni {
+  from {
+    transform: scale(0.5); }
+  to {
+    transform: scale(1); } }
+
 body {
   background-color: #f7f4f8; }
   body header .tituloUni {
@@ -11,18 +24,6 @@ body {
       color: grey;
       padding: 0.5rem;
       width: 70%; }
-    body header .tituloUni .uniDibu {
-      width: 30%;
-      animation-name: bailaUni;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-      animation-duration: 5s; }
-
-@keyframes bailaUni {
-  from {
-    transform: scale(0.5); }
-  to {
-    transform: scale(1); } }
   body header nav ul {
     display: flex;
     justify-content: space-around; }
